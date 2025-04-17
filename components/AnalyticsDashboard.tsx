@@ -9,7 +9,10 @@ ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 const AnalyticsDashboard: React.FC = () => {
   const dispatch = useAppDispatch();
+
+  // Now state.analytics is correctly typed as AnalyticsState
   const { kpiData, status, error } = useAppSelector((state) => state.analytics);
+
 
   useEffect(() => {
     if (status === 'idle') {

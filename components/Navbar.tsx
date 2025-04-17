@@ -12,17 +12,17 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="flex space-x-4 items-center">
-            <Link href="/sales" className="text-gray-600 hover:text-blue-600">Sales
+            <Link href="/sales/page" className="text-gray-600 hover:text-blue-600">Sales
             </Link>
-            <Link href="/fleet" className="text-gray-600 hover:text-blue-600">Fleet
+            <Link href="/fleet/page" className="text-gray-600 hover:text-blue-600">Fleet
             </Link>
-            <Link href="/billing" className="text-gray-600 hover:text-blue-600">Billing
+            <Link href="/billing/page" className="text-gray-600 hover:text-blue-600">Billing
             </Link>
-            <Link href="/warehouse" className="text-gray-600 hover:text-blue-600">Warehouse
+            <Link href="/warehouse/page" className="text-gray-600 hover:text-blue-600">Warehouse
             </Link>
-            <Link href="/hr" className="text-gray-600 hover:text-blue-600">HR
+            <Link href="/hr/page" className="text-gray-600 hover:text-blue-600">HR
             </Link>
-            <Link href="/analytics" className="text-gray-600 hover:text-blue-600">Analytics
+            <Link href="/analytics/page" className="text-gray-600 hover:text-blue-600">Analytics
             </Link>
           </div>
         </div>

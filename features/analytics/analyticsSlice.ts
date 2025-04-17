@@ -18,7 +18,7 @@ export interface AnalyticsState {
 // Async thunk to fetch KPI data from a backend API endpoint
 export const fetchKPIData = createAsyncThunk('analytics/fetchKPIData', async () => {
   // Replace the URL with your actual API endpoint
-  const response = await axios.get<KPIData>('https://api.example.com/erp/kpi');
+  const response = await axios.get<KPIData>('/api/erp/kpi');
   return response.data;
 });
 
